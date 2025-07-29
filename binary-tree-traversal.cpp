@@ -18,6 +18,7 @@ struct BinaryTreeNode {
         right = NULL;
     }
 
+    // Recursive in-order traversal: Left → Node → Right
     void inOrderTraversal(BinaryTreeNode* node) {
         if (node == NULL) return;
         inOrderTraversal(node->left);
