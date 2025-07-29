@@ -17,3 +17,10 @@ struct BinaryTreeNode {
         left = NULL;
         right = NULL;
     }
+
+    void inOrderTraversal(BinaryTreeNode* node) {
+        if (node == NULL) return;
+        inOrderTraversal(node->left);
+        std::cout << node->key << " ";
+        inOrderTraversal(node->right);
+    }
