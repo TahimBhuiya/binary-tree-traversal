@@ -3,3 +3,9 @@
 
 #include<iostream>
 #include <queue>
+
+struct BinaryTreeNode {
+    char key;      
+    int value;     
+    BinaryTreeNode* left;   
+    BinaryTreeNode* right;  
