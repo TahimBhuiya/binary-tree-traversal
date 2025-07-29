@@ -5,7 +5,7 @@
 #include <queue>
 
 struct BinaryTreeNode {
-    char key;      
-    int value;     
-    BinaryTreeNode* left;   
-    BinaryTreeNode* right;  
+    char key;      // Character key to identify the node
+    int value;     // Integer value associated with the node
+    BinaryTreeNode* left;   // Pointer to the left child
+    BinaryTreeNode* right;  // Pointer to the right child
