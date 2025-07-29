@@ -9,3 +9,10 @@ struct BinaryTreeNode {
     int value;     // Integer value associated with the node
     BinaryTreeNode* left;   // Pointer to the left child
     BinaryTreeNode* right;  // Pointer to the right child
+
+    BinaryTreeNode(char key, int value) {
+        this->key = key;
+        this->value = value;
+        left = NULL;
+        right = NULL;
+    }
