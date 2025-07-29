@@ -10,6 +10,7 @@ struct BinaryTreeNode {
     BinaryTreeNode* left;   // Pointer to the left child
     BinaryTreeNode* right;  // Pointer to the right child
 
+    // Constructor initializes key, value, and sets children to NULL
     BinaryTreeNode(char key, int value) {
         this->key = key;
         this->value = value;
