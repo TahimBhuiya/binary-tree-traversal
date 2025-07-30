@@ -50,3 +50,8 @@ struct BinaryTreeNode {
 
         BinaryTreeNode* right_res = DFS(node->right, target);
         if (right_res != NULL) return right_res;
+
+        if (node->key == target) return node;
+
+        return NULL;
+    }
