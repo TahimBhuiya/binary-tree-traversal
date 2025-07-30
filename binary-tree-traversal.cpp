@@ -34,6 +34,7 @@ struct BinaryTreeNode {
         preOrderTraversal(node->right);
     }
 
+    // Recursive post-order traversal: Left → Right → Node
     void postOrderTraversal(BinaryTreeNode* node) {
         if (node == NULL) return;
         postOrderTraversal(node->left);
