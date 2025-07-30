@@ -47,3 +47,6 @@ struct BinaryTreeNode {
 
         BinaryTreeNode* left_res = DFS(node->left, target);
         if (left_res != NULL) return left_res;
+
+        BinaryTreeNode* right_res = DFS(node->right, target);
+        if (right_res != NULL) return right_res;
