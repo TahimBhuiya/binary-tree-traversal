@@ -42,15 +42,19 @@ struct BinaryTreeNode {
         std::cout << node->key << " ";
     }
 
+    // Depth-First Search (DFS) to find node with a specific key
     BinaryTreeNode* DFS(BinaryTreeNode* node, char target) {
         if (node == NULL) return NULL;
 
+        // Search in left subtree
         BinaryTreeNode* left_res = DFS(node->left, target);
         if (left_res != NULL) return left_res;
 
+        // Search in right subtree
         BinaryTreeNode* right_res = DFS(node->right, target);
         if (right_res != NULL) return right_res;
 
+        // Check the current node
         if (node->key == target) return node;
 
         return NULL;
