@@ -25,3 +25,10 @@ struct BinaryTreeNode {
         std::cout << node->key << " ";
         inOrderTraversal(node->right);
     }
+
+    void preOrderTraversal(BinaryTreeNode* node) {
+        if (node == NULL) return;
+        std::cout << node->key << " ";
+        preOrderTraversal(node->left);
+        preOrderTraversal(node->right);
+    }
