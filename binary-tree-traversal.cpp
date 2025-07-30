@@ -26,6 +26,7 @@ struct BinaryTreeNode {
         inOrderTraversal(node->right);
     }
 
+    // Recursive pre-order traversal: Node → Left → Right
     void preOrderTraversal(BinaryTreeNode* node) {
         if (node == NULL) return;
         std::cout << node->key << " ";
