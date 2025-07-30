@@ -41,3 +41,6 @@ struct BinaryTreeNode {
         postOrderTraversal(node->right);
         std::cout << node->key << " ";
     }
+
+    BinaryTreeNode* DFS(BinaryTreeNode* node, char target) {
+        if (node == NULL) return NULL;
