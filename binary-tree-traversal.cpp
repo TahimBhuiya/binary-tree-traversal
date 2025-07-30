@@ -33,3 +33,10 @@ struct BinaryTreeNode {
         preOrderTraversal(node->left);
         preOrderTraversal(node->right);
     }
+
+    void postOrderTraversal(BinaryTreeNode* node) {
+        if (node == NULL) return;
+        postOrderTraversal(node->left);
+        postOrderTraversal(node->right);
+        std::cout << node->key << " ";
+    }
