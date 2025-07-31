@@ -68,3 +68,5 @@ struct BinaryTreeNode {
         std::queue<std::pair<BinaryTreeNode*, int>> current_level_queue;
         std::queue<std::pair<BinaryTreeNode*, int>> next_level_queue;
         int level = 0;
+    
+        current_level_queue.push({node, level}); 
