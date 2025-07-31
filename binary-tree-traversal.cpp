@@ -78,3 +78,7 @@ struct BinaryTreeNode {
                 std::swap(current_level_queue, next_level_queue);
                 level++;
             }
+            auto currentNodePair = current_level_queue.front();
+            BinaryTreeNode* currentNode = currentNodePair.first;
+            level = currentNodePair.second;
+            current_level_queue.pop();
