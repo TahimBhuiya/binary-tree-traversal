@@ -70,3 +70,9 @@ struct BinaryTreeNode {
         int level = 0;
     
         current_level_queue.push({node, level}); // Start with root
+
+        while (!current_level_queue.empty() || !next_level_queue.empty()) {
+            if (current_level_queue.empty()) {
+                std::swap(current_level_queue, next_level_queue);
+                level++;
+            }
