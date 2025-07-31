@@ -60,5 +60,6 @@ struct BinaryTreeNode {
         return NULL;
     }
 
+    // Breadth-First Search (BFS) to find a node and report its level
     std::pair<BinaryTreeNode*, int> BFS(BinaryTreeNode* node, char target) {
-        if (node == NULL) return {NULL, -1}; 
+        if (node == NULL) return {NULL, -1}; // Tree is empty
