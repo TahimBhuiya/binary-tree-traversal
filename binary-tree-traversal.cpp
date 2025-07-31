@@ -59,3 +59,6 @@ struct BinaryTreeNode {
 
         return NULL;
     }
+
+    std::pair<BinaryTreeNode*, int> BFS(BinaryTreeNode* node, char target) {
+        if (node == NULL) return {NULL, -1}; 
