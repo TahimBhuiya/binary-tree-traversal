@@ -98,3 +98,7 @@ struct BinaryTreeNode {
             if (currentNode->left != NULL) {
                 next_level_queue.push({currentNode->left, level + 1});
             }
+            if (currentNode->right != NULL) {
+                next_level_queue.push({currentNode->right, level + 1});
+            }
+        }
