@@ -93,3 +93,8 @@ struct BinaryTreeNode {
                           << "' at level " << level << std::endl;
                 return {currentNode, currentNode->value};
             }
+
+
+            if (currentNode->left != NULL) {
+                next_level_queue.push({currentNode->left, level + 1});
+            }
