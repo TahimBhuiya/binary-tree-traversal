@@ -102,3 +102,8 @@ struct BinaryTreeNode {
                 next_level_queue.push({currentNode->right, level + 1});
             }
         }
+
+        std::cout << "Target node " << target << " not found in the tree." << std::endl;
+        return {NULL, -1};
+    }
+};
