@@ -103,6 +103,7 @@ struct BinaryTreeNode {
             }
         }
 
+        // If target was not found
         std::cout << "Target node " << target << " not found in the tree." << std::endl;
         return {NULL, -1};
     }
