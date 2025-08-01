@@ -94,7 +94,7 @@ struct BinaryTreeNode {
                 return {currentNode, currentNode->value};
             }
 
-
+            // Add children to next level queue
             if (currentNode->left != NULL) {
                 next_level_queue.push({currentNode->left, level + 1});
             }
