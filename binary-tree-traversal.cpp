@@ -82,3 +82,5 @@ struct BinaryTreeNode {
             BinaryTreeNode* currentNode = currentNodePair.first;
             level = currentNodePair.second;
             current_level_queue.pop();
+
+            std::cout << "Level " << level << ": Visiting node " << currentNode->key << std::endl;
