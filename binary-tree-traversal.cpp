@@ -86,6 +86,7 @@ struct BinaryTreeNode {
             // Print current visiting node
             std::cout << "Level " << level << ": Visiting node " << currentNode->key << std::endl;
 
+            // If node matches target, return it
             if (currentNode->key == target) {
                 std::cout << "Found target node " << target
                           << " with value '" << currentNode->value
