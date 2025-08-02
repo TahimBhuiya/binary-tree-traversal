@@ -134,7 +134,7 @@ int main() {
         std::cout << "\nDFS: Node with key '" << targetDFS << "' not found." << std::endl;
     }
 
-
+    // BFS test: search for node with key 'G'
     char targetBFS = 'G';
     std::cout << "\nBFS: " << std::endl;
     auto resultBFS = root->BFS(root, targetBFS);
