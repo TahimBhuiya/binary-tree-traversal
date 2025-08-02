@@ -135,6 +135,11 @@ int main() {
     }
 
 
+    char targetBFS = 'G';
+    std::cout << "\nBFS: " << std::endl;
+    auto resultBFS = root->BFS(root, targetBFS);
+
+
 
 
 
