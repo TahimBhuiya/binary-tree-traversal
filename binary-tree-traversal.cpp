@@ -119,6 +119,10 @@ int main() {
     root->right->left = new BinaryTreeNode('F', 6);
     root->right->right = new BinaryTreeNode('G', 7);
 
+    
+    std::cout << "In-order traversal: ";
+    root->inOrderTraversal(root);
+    std::cout << std::endl;
 
 
 
