@@ -111,6 +111,13 @@ struct BinaryTreeNode {
 
 int main() {
 
+    BinaryTreeNode* root = new BinaryTreeNode('A', 1);
+    root->left = new BinaryTreeNode('B', 2);
+    root->right = new BinaryTreeNode('C', 3);
+    root->left->left = new BinaryTreeNode('D', 4);
+    root->left->right = new BinaryTreeNode('E', 5);
+    root->right->left = new BinaryTreeNode('F', 6);
+    root->right->right = new BinaryTreeNode('G', 7);
 
 
 
@@ -118,5 +125,4 @@ int main() {
 
 
 
-    
 }
