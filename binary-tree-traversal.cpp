@@ -124,7 +124,7 @@ int main() {
     root->inOrderTraversal(root);
     std::cout << std::endl;
 
-
+    // DFS test: search for node with key 'E'
     char targetDFS = 'E';
     BinaryTreeNode* resultDFS = root->DFS(root, targetDFS);
     if (resultDFS != nullptr) {
