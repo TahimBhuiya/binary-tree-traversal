@@ -125,6 +125,16 @@ int main() {
     std::cout << std::endl;
 
 
+    char targetDFS = 'E';
+    BinaryTreeNode* resultDFS = root->DFS(root, targetDFS);
+    if (resultDFS != nullptr) {
+        std::cout << "\nDFS: Found node with key '" << targetDFS
+                  << "' and value '" << resultDFS->value << "'" << std::endl;
+    } else {
+        std::cout << "\nDFS: Node with key '" << targetDFS << "' not found." << std::endl;
+    }
+
+
 
 
 
