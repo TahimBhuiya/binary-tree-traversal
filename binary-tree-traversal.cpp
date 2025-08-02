@@ -110,7 +110,7 @@ struct BinaryTreeNode {
 };
 
 int main() {
-
+    // Create a sample binary tree
     BinaryTreeNode* root = new BinaryTreeNode('A', 1);
     root->left = new BinaryTreeNode('B', 2);
     root->right = new BinaryTreeNode('C', 3);
