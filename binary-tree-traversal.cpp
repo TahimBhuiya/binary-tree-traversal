@@ -144,6 +144,7 @@ int main() {
     root->preOrderTraversal(root);
     std::cout << std::endl;
 
+    // Post-order traversal test  
     std::cout << "\nPost-order traversal: ";
     root->postOrderTraversal(root);
     std::cout << std::endl;
