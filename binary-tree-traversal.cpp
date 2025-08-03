@@ -148,6 +148,7 @@ int main() {
     std::cout << "\nPost-order traversal: ";
     root->postOrderTraversal(root);
     std::cout << std::endl;
-
+    
+    return 0;
 
 }
