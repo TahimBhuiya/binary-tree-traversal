@@ -139,6 +139,7 @@ int main() {
     std::cout << "\nBFS: " << std::endl;
     auto resultBFS = root->BFS(root, targetBFS);
 
+    // Pre-order traversal test
     std::cout << "\nPre-order traversal: ";
     root->preOrderTraversal(root);
     std::cout << std::endl;
