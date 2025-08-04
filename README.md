@@ -9,3 +9,12 @@ This project implements a **Binary Tree** in C++ with:
 The program builds a sample binary tree and demonstrates each algorithm.
 
 ## 🌳 Tree Structure
+The tree created in `main()` looks like this:
+
+```
+         A(1)
+        /    \
+     B(2)     C(3)
+    /   \     /   \
+ D(4) E(5) F(6) G(7)
+```
