@@ -32,3 +32,8 @@ You can run this code in two ways:
 ### 1️⃣ Using a local C++ compiler
 - Save the code as `main.cpp`
 - Compile and run it with your C++ compiler (e.g., Dev-C++, Code::Blocks, Visual Studio)
+
+### 2️⃣ Using an online C++ compiler
+- Go to a site like [Programiz](https://www.programiz.com/cpp-programming/online-compiler) or [Replit](https://replit.com/languages/cpp)
+- Paste the code
+- Run it directly in your browser
