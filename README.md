@@ -37,3 +37,5 @@ You can run this code in two ways:
 - Go to a site like [Programiz](https://www.programiz.com/cpp-programming/online-compiler) or [Replit](https://replit.com/languages/cpp)
 - Paste the code
 - Run it directly in your browser
+
+## 📌 Example Output
