@@ -25,3 +25,5 @@ The tree created in `main()` looks like this:
 - **Post-order Traversal:** Left → Right → Node
 - **DFS Search:** Recursive search through the tree
 - **BFS Search:** Level-order search using queues, reports level of found node
+
+## 🛠 Compilation & Execution
