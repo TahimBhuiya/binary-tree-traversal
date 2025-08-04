@@ -27,3 +27,8 @@ The tree created in `main()` looks like this:
 - **BFS Search:** Level-order search using queues, reports level of found node
 
 ## 🛠 How to Run
+You can run this code in two ways:
+
+### 1️⃣ Using a local C++ compiler
+- Save the code as `main.cpp`
+- Compile and run it with your C++ compiler (e.g., Dev-C++, Code::Blocks, Visual Studio)
