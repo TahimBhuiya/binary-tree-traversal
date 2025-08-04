@@ -7,3 +7,5 @@ This project implements a **Binary Tree** in C++ with:
 - Breadth-First Search (BFS) with level tracking
 
 The program builds a sample binary tree and demonstrates each algorithm.
+
+## 🌳 Tree Structure
