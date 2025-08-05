@@ -18,7 +18,6 @@ The tree created in `main()` looks like this:
     /   \     /   \
  D(4) E(5) F(6) G(7)
 ```
-
 ## 🚀 Features
 - **In-order Traversal:** Left → Node → Right
 - **Pre-order Traversal:** Node → Left → Right
@@ -61,6 +60,5 @@ Post-order traversal: D E B F G C A
 
 ## 📄 License
 This project is open-source and available under the MIT License.
-
 ---
 👨‍💻 Created by **Tahim Bhuiya**
