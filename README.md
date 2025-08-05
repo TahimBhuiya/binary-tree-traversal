@@ -53,3 +53,5 @@ Level 2: Visiting node E
 Level 2: Visiting node F
 Level 2: Visiting node G
 Found target node G with value '7' at level 2
+
+Pre-order traversal: A B D E C F G
