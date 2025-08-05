@@ -39,3 +39,5 @@ You can run this code in two ways:
 - Run it directly in your browser
 
 ## 📌 Example Output
+```
+In-order traversal: D B E A F C G
