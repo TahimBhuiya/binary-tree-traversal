@@ -41,3 +41,5 @@ You can run this code in two ways:
 ## 📌 Example Output
 ```
 In-order traversal: D B E A F C G
+
+DFS: Found node with key 'E' and value '5'
