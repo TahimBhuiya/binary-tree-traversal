@@ -43,3 +43,13 @@ You can run this code in two ways:
 In-order traversal: D B E A F C G
 
 DFS: Found node with key 'E' and value '5'
+
+BFS:
+Level 0: Visiting node A
+Level 1: Visiting node B
+Level 1: Visiting node C
+Level 2: Visiting node D
+Level 2: Visiting node E
+Level 2: Visiting node F
+Level 2: Visiting node G
+Found target node G with value '7' at level 2
